@@ -1,0 +1,102 @@
+.nav-link{
+color:grey;
+}
+#c-Footer{
+	background-color: black;
+	color: white;
+}
+#d1{
+	background-color: #d029ef;
+}
+#d2{
+	background-color: #d029ef;
+}
+#d3{
+	background-color: #d029ef;
+}
+
+
+
+
+.nextbtn{
+	 cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+	/*background-color: black;
+	color: white;
+	width: 45px;
+	height: 40px;
+	border: 1px solid #ccc;*/
+}
+.previousbtn{
+	 cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+	
+	/*color:white;*/
+	
+	
+}
+.previousbtn:hover, .nextbtn:hover {
+  background-color: rgba(0,0,0,0.8);
+  }
+
+
+.noqteleryanasi{
+	
+	margin-top: 400px;
+text-align:center
+}
+
+.dot{
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  bottom:150px;
+}
+
+
+.active, .dot:hover {
+  background-color:#d029ef ;
+  border:2px solid white;
+}
+
+.slider{
+	position: relative;
+	top:40px;
+	width: 1000px;
+	height: 200px;
+	background-color: red;
+}
+.slideimg{
+	z-index: -1;
+	width: 100%;
+	height: 450px;
+	padding: 0;
+}
